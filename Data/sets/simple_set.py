@@ -1,10 +1,11 @@
 
 def observed():
-    observations = set(["Flying Car", "Sky Scraper", "Sky Scraper", "Laser", "Dome", "Dome"])
-    print(observations)
-    return observations
+    observation = {"Flying Car", "Sky Scraper", "Sky Scraper", "Laser", "Dome", "Dome"}
+
+    return observation
 
 def run():
-    observed()
+    print(observed())
 
-run()
+if __name__ == "__main__":
+    run()
