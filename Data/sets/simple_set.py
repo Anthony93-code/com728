@@ -1,4 +1,3 @@
-
 def observed():
     observation = {"Flying Car", "Sky Scraper", "Sky Scraper", "Laser", "Dome", "Dome"}
 
@@ -6,6 +5,7 @@ def observed():
 
 def run():
     print(observed())
+
 
 if __name__ == "__main__":
     run()
